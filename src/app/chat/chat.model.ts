@@ -8,7 +8,7 @@ export class Chat {
     // For timeline post
     public id: number;
     public messages: string[];
-    public ts: number;
+    public ts: string;
     public user: number;
   
     constructor(

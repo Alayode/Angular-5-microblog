@@ -1,5 +1,5 @@
 <div class="chat-application">
-  <div class="chat-sidebar float-left d-none d-sm-none d-md-block d-lg-block">
+  <!-- <div class="chat-sidebar float-left d-none d-sm-none d-md-block d-lg-block">
     <div class="chat-sidebar-content">
       <div class="chat-fixed-search p-3">
         <form>
@@ -10,8 +10,8 @@
             </div>
           </div>
         </form>
-      </div>
-      <div id="users-list" class="list-group position-relative">
+      </div> -->
+      <!-- <div id="users-list" class="list-group position-relative">
         <div class="users-list-padding">
           <a class="list-group-item bg-blue-grey bg-lighten-5 border-right-primary border-right-2" (click)="SetActive($event, 'chat1')">
             <span class="media">
@@ -142,7 +142,7 @@
             </span>
           </a>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   <section class="chat-app-window" #scrollMe [scrollTop]="scrollMe.scrollHeight">
@@ -193,14 +193,17 @@
     <form class="chat-app-input row">
       <fieldset class="form-group position-relative has-icon-left col-xl-10 col-lg-8 col-8 m-0 mb-1">
         <div class="form-control-position">
-          <i class="icon-emoticon-smile"></i>
+         <!-- Add a Emoticon to the chat menu -->
+          <!-- <i class="icon-emoticon-smile"></i> -->
         </div>
         <input type="text" class="form-control" id="iconLeft4" placeholder="Type your message" (keydown.enter)="onAddMessage();$event.preventDefault()"
           #messageInput>
         <div class="form-control-position control-position-right">
-          <i class="ft-image"></i>
+          <!-- Add a emoticion for adding images -->
+          <!-- <i class="ft-image"></i> -->
         </div>
       </fieldset>
+    <!-- Send Button -->
       <fieldset class="form-group position-relative has-icon-left col-xl-2 col-lg-4 col-4 m-0 mb-1">
         <button type="button" class="btn btn-raised btn-primary" (click)="onAddMessage()">
           <i class="fa fa-paper-plane-o hidden-lg-up"></i> Send</button>

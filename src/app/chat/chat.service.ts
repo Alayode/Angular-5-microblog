@@ -10,7 +10,7 @@ export class ChatService {
         new Chat(
             'left',
             'chat chat-left',
-            'assets/img/portrait/small/avatar-s-1.png',
+            'assets/marymeeker.jpg',
             '',
             [
                 'Love this shot. Reminds me of the first time someone found me at the end of a rainbow holding a pot of gold.'
@@ -22,7 +22,7 @@ export class ChatService {
         new Chat(
             'left',
             'chat chat-left',
-            'assets/img/portrait/small/avatar-s-3.png',
+            'assets/ConanOBrien.jpg',
             '1 hour ago',
             [
                'Spotify has grown to more than 60 million monthly active users, 15 million of whom are paying subscribers.'
@@ -34,7 +34,7 @@ export class ChatService {
         new Chat(
             'left',
             'chat chat-left',
-            'assets/img/portrait/small/avatar-s-1.png',
+            'assets/baratunde.jpg',
             '30 minutes ago',
             [
                 'Spotify has grown to more than 60 million monthly active users, 15 million of whom are paying subscribers.'
