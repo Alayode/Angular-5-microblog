@@ -189,24 +189,27 @@
       </div>
     </div>
   </section>
-  <section class="chat-app-form bg-blue-grey bg-lighten-5">
+  <section class="chat-app-form">
     <form class="chat-app-input row">
       <fieldset class="form-group position-relative has-icon-left col-xl-10 col-lg-8 col-8 m-0 mb-1">
         <div class="form-control-position">
          <!-- Add a Emoticon to the chat menu -->
           <!-- <i class="icon-emoticon-smile"></i> -->
         </div>
-        <input type="text" class="form-control" id="iconLeft4" placeholder="What's Happening?" (keydown.enter)="onAddMessage();$event.preventDefault()"
+        <input type="text" class="form-control" style="border-color:transparent; outline:none;" id="iconLeft4" placeholder="What's Happening?" (keydown.enter)="onAddMessage();$event.preventDefault()"
           #messageInput>
         <div class="form-control-position control-position-right">
           <!-- Add a emoticion for adding images -->
           <!-- <i class="ft-image"></i> -->
+
+          <!-- Add a Character Count so the user can know how much they have left -->
+          
         </div>
       </fieldset>
     <!-- Send Button -->
       <fieldset class="form-group position-relative has-icon-left col-xl-2 col-lg-4 col-4 m-0 mb-1">
-        <button type="button" class="btn btn-raised btn-primary" (click)="onAddMessage()">
-          <i class="fa fa-paper-plane-o hidden-lg-up"></i> Send</button>
+        <button type="button" (click)="onAddMessage()">
+          <i class="fa fa-paper-plane-o hidden-lg-up" style=" padding-left:100%"></i></button>
       </fieldset>
     </form>
   </section>
