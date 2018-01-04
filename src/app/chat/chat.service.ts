@@ -43,30 +43,30 @@ export class ChatService {
             4629293242,
             '4:14 AM',
             3),
-        new Chat(
-            'left',
-            'chat chat-left',
-            'assets/img/portrait/small/avatar-s-3.png',
-            '20 minutes ago',
-            [
-                'If I were in prison, I wouldn\'t ruin my spoon trying to tunnel out, because going without morning yogurt is its own prison.'
-            ],
-            'text',
-            4629293242,
-            '4:14 AM',
-            3),
-        new Chat(
-            'left',
-            'chat chat-left',
-            'assets/img/portrait/small/avatar-s-3.png',
-            '10 minutes ago',
-            [
-                'Something beautiful for you from Cornwall. https://media.better.com/microblog/cornwall.jpg'
-            ],
-            'text',
-            4629293242,
-            '4:14 AM',
-            3)
+        // new Chat(
+        //     'left',
+        //     'chat chat-left',
+        //     'assets/img/portrait/small/avatar-s-3.png',
+        //     '20 minutes ago',
+        //     [
+        //         'If I were in prison, I wouldn\'t ruin my spoon trying to tunnel out, because going without morning yogurt is its own prison.'
+        //     ],
+        //     'text',
+        //     4629293242,
+        //     '4:14 AM',
+        //     3),
+        // new Chat(
+        //     'left',
+        //     'chat chat-left',
+        //     'assets/img/portrait/small/avatar-s-3.png',
+        //     '10 minutes ago',
+        //     [
+        //         'Something beautiful for you from Cornwall. https://media.better.com/microblog/cornwall.jpg'
+        //     ],
+        //     'text',
+        //     4629293242,
+        //     '4:14 AM',
+        //     3)
          ];
         public chat2: Chat[] = [
             new Chat(
@@ -242,7 +242,7 @@ export class ChatService {
                 'text',
                 4629293242,
                 '4:14 AM',
-                3)    
+                3),    
                 new Chat(
                     'left',
                     'chat chat-left',

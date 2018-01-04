@@ -1,7 +1,7 @@
 <div class="chat-application">
-  <!-- <div class="chat-sidebar float-left d-none d-sm-none d-md-block d-lg-block">
-    <div class="chat-sidebar-content">
-      <div class="chat-fixed-search p-3">
+  <!-- <div class="chat-sidebar float-left d-none d-sm-none d-md-block d-lg-block"> --> 
+    <!-- <div class="chat-sidebar-content"> -->
+      <!-- <div class="chat-fixed-search p-3">
         <form>
           <div class="position-relative has-icon-left">
             <input class="form-control" id="timesheetinput1" name="employeename" type="text">
@@ -10,7 +10,7 @@
             </div>
           </div>
         </form>
-      </div> -->
+      </div>  -->
       <!-- <div id="users-list" class="list-group position-relative">
         <div class="users-list-padding">
           <a class="list-group-item bg-blue-grey bg-lighten-5 border-right-primary border-right-2" (click)="SetActive($event, 'chat1')">
@@ -142,11 +142,11 @@
             </span>
           </a>
         </div>
-      </div> -->
-    </div>
-  </div>
+      </div>
+    </div> -->
+  <!-- </div> -->
   <section class="chat-app-window" #scrollMe [scrollTop]="scrollMe.scrollHeight">
-    <div class="badge badge-dark mb-1">Timeline</div>
+    <!-- <div class="badge badge-dark mb-1">Timeline</div> -->
     <div class="chats">
       <div class="chats">
         <div [ngClass]="[chat.chatClass]" *ngFor="let chat of chat">
@@ -196,7 +196,7 @@
          <!-- Add a Emoticon to the chat menu -->
           <!-- <i class="icon-emoticon-smile"></i> -->
         </div>
-        <input type="text" class="form-control" id="iconLeft4" placeholder="Type your message" (keydown.enter)="onAddMessage();$event.preventDefault()"
+        <input type="text" class="form-control" id="iconLeft4" placeholder="What's Happening?" (keydown.enter)="onAddMessage();$event.preventDefault()"
           #messageInput>
         <div class="form-control-position control-position-right">
           <!-- Add a emoticion for adding images -->
