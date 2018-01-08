@@ -22,6 +22,7 @@ export class ChatComponent implements OnInit {
 
   ngOnInit() {
     $.getScript('./assets/js/chat.js');
+
   }
 
   //send button function calls
@@ -42,7 +43,7 @@ export class ChatComponent implements OnInit {
     [].forEach.call(allAnchors, function (item: HTMLElement) {
       item.setAttribute('class', 'list-group-item no-border');
     });
-    //set active class for selected item 
+    //set active class for selected item
     event.currentTarget.setAttribute('class', 'list-group-item bg-blue-grey bg-lighten-5 border-right-primary border-right-2');
 
     this.messages = [];
@@ -56,9 +57,9 @@ export class ChatComponent implements OnInit {
     else if (chatId === 'chat3') {
       this.chat = this.chatService.chat3;
     }
-    else if (chatId === 'chat4') {
-      this.chat = this.chatService.chat4;
-    }
+    // else if (chatId === 'chat4') {
+    //   this.chat = this.chatService.chat4;
+    // }
     else if (chatId === 'chat5') {
       this.chat = this.chatService.chat5;
     }
